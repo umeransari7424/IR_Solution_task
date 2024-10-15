@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.login {
+  .login-card {
+    padding: 35px 55px;
+  }
+  .heading {
+    padding-bottom: 30px;
+  }
+  .logoipsum {
+    color: #2a8566;
+    font-size: 27px;
+    font-family: inter;
+    font-weight: 600;
+    margin-bottom: 0rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .head {
+    font-size: 66px;
+    font-family: inter;
+    font-weight: 600;
+    line-height: 1.0;
+  }
+  p {
+    font-size: 17px;
+    font-family: inter;
+    font-weight: 500;
+    color: #68717a;
+  }
+  .email {
+    font-weight: 600;
+  }
+  .loginbtn {
+    background-color: #3feda2;
+    font-family: inter;
+    border-radius: 0px;
+    font-size: 16.9px;
+    color: #5F6972;
+    font-weight: 500;
+    &:hover {
+      background-color: #3feda2;
+      color:#5F6972;
+      font-weight: 500;
+    }
+    &:active{
+      background-color:  #3feda2 !important;
+      color:#5F6972 !important;
+    }
+  }
+  .check {
+    color: #7a7f84;
+    font-family: inter;
+    font-weight: 500;
+    outline: none;
+    &:focus{
+      box-shadow: none !important;
+    }
+  }
+  .form-check-input:checked{
+    background-color: #3feda2;
+    border-color: #3feda2;
+  }
+  .e-input:focus{
+    box-shadow: none !important;
+    border-color:#E1E7EC ;
+  }
+  
+  .googlebtn {
+    background-color: transparent;
+    border: 1px solid #d5dde5;
+    font-family: inter;
+    border-radius: 0px;
+    font-size: 16.9px;
+    color:#5F6972;
+    font-weight: 500;
+    &:hover {
+      background-color: transparent;
+      border: 1px solid #d5dde5;
+      color:#5F6972;
+    }
+    &:active{
+      background-color: transparent !important;
+      color:#5F6972 !important;
+      border: 1px solid #d5dde5 !important;
+    }
+  }
+  .join{
+    font-family:inter ;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7E868D;
+    b{
+      color: #5C5F63;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .login-img {
+    display: none;
+  }
+  .login-card {
+    padding: 35px 10px !important;
+  }
+}
